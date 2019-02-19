@@ -9,7 +9,7 @@ public class Pattern33 {
 				System.out.print(" ");
 			}
 			for (int k = 1; k <= i; k++) {
-				System.out.print((char) (64 + k));
+				System.out.print((char)(64 + k));
 			}
 			System.out.println();
 		}
