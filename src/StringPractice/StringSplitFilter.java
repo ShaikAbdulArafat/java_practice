@@ -30,7 +30,7 @@ public class StringSplitFilter {
 				Big_word = words_in_given_string[i];
 			}
 		}
-		System.out.println("smallest words is : "+ small_word);
+		System.out.println("Smallest words is : "+ small_word);
 		System.out.println("Biggest word is : " + Big_word);
 	}
 }
