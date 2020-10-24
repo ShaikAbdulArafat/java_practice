@@ -1,9 +1,14 @@
 package StringPractice;
 
+
+//i/p = a1b2c3 -> o/p = abbccc
+//i/p = abc1def2ghi3  -> o/p = abcdefdefghighighi
+
+
 public class StringSplitRepeat {
 
 	public static void main(String[] args) {
-		String str = "abcd1";
+		String str = "abc3def2ghi3";
 		String first_str = "";
 		
 		while(!(latestIndexOfStr(str) == 0)) {

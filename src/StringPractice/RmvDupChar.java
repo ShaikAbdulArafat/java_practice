@@ -1,11 +1,11 @@
-package sample;
+package StringPractice;
 
+//i/p = India is great , in -> o/p = da s great
 
-// i/p = India is great , in -> o/p = da s great
+public class RmvDupChar {
 
-public class Sample1{
 	public static void main(String[] args) {
-		System.out.println(removeDupChars("India is great", "in"));
+		System.out.println(removeDupChars("India is great", " "));
 //		System.out.println(isCharIsIn('a', "star"));
 	}
 	
@@ -32,4 +32,5 @@ public class Sample1{
 		}
 		return result;
 	}
+
 }
